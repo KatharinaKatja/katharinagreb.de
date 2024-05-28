@@ -6,44 +6,44 @@ html, body {
     background-image: url("../../images/Design ohne Titel (19).png");
     background-size: cover;
     display: flex;
-    flex-direction: column; /* Richtung der Hauptachse ändern */
+    flex-direction: column; 
 }
 
 body {
-    color: #fff; /* Weiße Textfarbe für den gesamten Body */
+    color: #fff; 
 }
 
 .container {
     flex: 1;
     display: flex;
-    justify-content: center; /* Zentriert den Inhalt horizontal im Flex-Container */
-    align-items: center; /* Zentriert den Inhalt vertikal im Flex-Container */
-    background-color: #000; /* Schwarzer Hintergrund für den Container */
-    width: 500px; /* Container nimmt die volle Fensterbreite ein */
-    margin: 150px; /* Entfernt den Außenabstand */
-    padding: 0px 20px; /* Innenabstand hinzufügen */
-    box-sizing: border-box; /* Box-Modell anpassen */
-    text-align: center; /* Text zentrieren */
+    justify-content: center; 
+    align-items: center; 
+    background-color: #000;
+    width: 500px; 
+    margin: 150px; 
+    padding: 0px 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
 }
 
 h1, p {
-    color: #fff; /* Weiße Textfarbe für Überschriften und Paragraphen */
+    color: #fff; 
 }
 
 #footer {
-    text-align: center; /* Zentriert den Text im Footer */
-    padding: 20px 0; /* Polster oben und unten */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparenter schwarzer Hintergrund */
-    color: #fff; /* Weiße Textfarbe */
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
 }
 
 #footer a {
-    color: #fff; /* Setzt die Linkfarbe auf Weiß */
-    text-decoration: none; /* Entfernt Unterstreichungen von Links */
+    color: #fff; 
+    text-decoration: none; 
 }
 
 #footer a:hover {
-    text-decoration: underline; /* Fügt eine Unterstreichung beim Überfahren mit der Maus hinzu */
+    text-decoration: underline; 
 }
 
     
