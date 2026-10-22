@@ -17,6 +17,10 @@
 				padding: 1rem 1.25rem;
 				margin: 0 0 2rem 0;
 			}
+			/* Gleich breite Menüpunkte, damit die Mittellinie genau zwischen zwei Punkten endet */
+			@media screen and (min-width: 481px) {
+				#header nav ul li a { min-width: 12rem; }
+			}
 			.preis {
 				font-size: 1.75rem;
 				font-weight: 600;
